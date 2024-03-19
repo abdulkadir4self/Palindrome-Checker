@@ -1,0 +1,54 @@
+body{
+    
+        --dot-bg: black;
+        --dot-color: white;
+        --dot-size: 1px;
+        --dot-space: 22px;
+          background:
+              linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+              linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+              var(--dot-color);
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section
+{
+    /* background-color: #4f46e4; */
+border-radius: 10px;
+width: auto;
+height: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+margin: 10rem;
+font-family: 'poppins' , sans-serif;
+}
+button
+{
+    margin: 2rem;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+font-family: 'poppins' , sans-serif;
+background-color: #b37ba4;
+
+
+}
+input
+{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+font-family: 'poppins' , sans-serif;
+
+}
+h1
+{
+    color: #b37ba4;
+font-family: 'poppins' , sans-serif;
+font-weight: 500;
+}
