@@ -1,3 +1,5 @@
+**Author- Chaudhari Abkadar**
+
 **Palindrome Checker**
 
 This project is a handy tool to quickly determine whether a given input is a palindrome. 
