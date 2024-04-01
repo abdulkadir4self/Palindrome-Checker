@@ -52,3 +52,22 @@ h1
 font-family: 'poppins' , sans-serif;
 font-weight: 500;
 }
+h2{
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    /* font-family: 'poppins' , sans-serif; */
+    /* font-weight: 500; */
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2::first-letter{
+    color: #b37ba4;
+    font-size: 3rem;
+    font-weight: 900;
+    
+  
+      
+}
